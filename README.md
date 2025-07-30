@@ -20,27 +20,24 @@ Features
 Project Structure
 -----------------
 3d-supercar-showcase/
-│── index.html          # Main page with 3D models
-│── contact.php         # Contact page with form
-│── thankyou.php        # Thank You page
-│── submissions.txt     # Stores messages
-│── style.css           # Styling
-│── script.js           # Smooth scrolling & interactions
-│── models/             # 3D models (.glb)
+│── index.html
+│── contact.php         
+│── thankyou.php        
+│── submissions.txt     
+│── style.css           
+│── script.js          
+│── models/             
     ├── lamborghini_terzo.glb
     ├── ferrari.glb
     └── benz_g63.glb
 
 How to Run Locally
 ------------------
-1. Install PHP (Mac/Linux)
-   brew install php
-   php -v  # Verify installation
 
-2. Start PHP server
+1. Start PHP server
    php -S localhost:8000
 
-3. Open in browser
+2. Open in browser
    - Main Page: http://localhost:8000/index.html
    - Contact Page: http://localhost:8000/contact.php
 
