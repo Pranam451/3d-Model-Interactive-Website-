@@ -2,15 +2,15 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ===== Global Dark Theme ===== */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  background: #0e0e0e;   /* Deep black */
+  background: #0e0e0e;   
   color: #fff;
 }
 
-/* ===== Navbar ===== */
+
 .navbar {
   position: sticky;
   top: 0;
@@ -42,7 +42,7 @@ body {
   color: #fff;
 }
 
-/* ===== Sections ===== */
+
 section {
   padding: 50px 20px;
   text-align: center;
@@ -63,7 +63,7 @@ section p {
   margin: 0 auto 20px;
 }
 
-/* ===== 3D Model Container ===== */
+
 .model-container {
   width: 100%;
   margin: 0 auto;
@@ -79,7 +79,7 @@ model-viewer {
   display: block;
 }
 
-/* ===== Contact Section ===== */
+
 section.contact-section {
   background: #1e1e1e;
   width: 90%;
@@ -91,7 +91,7 @@ section.contact-section {
   box-sizing: border-box;
 }
 
-/* ===== Contact Form ===== */
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -129,9 +129,7 @@ section.contact-section {
   background: #ffaa00;
 }
 
-/* ===== Responsive Fixes ===== */
 
-/* Models */
 @media (max-width: 600px) {
   .model-container {
     padding: 5px;
@@ -141,7 +139,6 @@ section.contact-section {
   }
 }
 
-/* Contact Form - Full Width on Mobile */
 @media (max-width: 480px) {
   section.contact-section {
     width: 100%;
